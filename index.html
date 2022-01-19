@@ -1,7 +1,7 @@
 <script>
 var xhr = new XMLHttpRequest();
 xhr.onload = reqListener; 
-xhr.open("GET", "http://google.com");
+xhr.open("GET", "http://google.com", true);
 xhr.send();
 
 function reqListener() {
